@@ -1,0 +1,67 @@
+name: Dutch
+pattern: (^|[^\w])(NL|Dutch)([^\w]|$)
+description: Matches whether the title signals the release is Dutch
+tags:
+- language
+- dutch
+tests:
+- expected: true
+  id: 1
+  input: Foo.NL.release
+  lastRun: '2026-01-06T16:37:45.079662'
+  matchSpan:
+    end: 7
+    start: 3
+  matchedContent: .NL.
+  matchedGroups:
+  - .
+  - NL
+  - .
+  passes: true
+- expected: true
+  id: 2
+  input: Bar.nl
+  lastRun: '2026-01-06T16:37:45.079662'
+  matchSpan:
+    end: 6
+    start: 3
+  matchedContent: .nl
+  matchedGroups:
+  - .
+  - nl
+  - ''
+  passes: true
+- expected: true
+  id: 3
+  input: NL.Movie
+  lastRun: '2026-01-06T16:37:45.079662'
+  matchSpan:
+    end: 3
+    start: 0
+  matchedContent: NL.
+  matchedGroups:
+  - ''
+  - NL
+  - .
+  passes: true
+- expected: true
+  id: 4
+  input: Foo.Dutch.Bar
+  lastRun: '2026-01-06T16:37:45.079662'
+  matchSpan:
+    end: 10
+    start: 3
+  matchedContent: .Dutch.
+  matchedGroups:
+  - .
+  - Dutch
+  - .
+  passes: true
+- expected: false
+  id: 5
+  input: Foo.DutchReleaseTeam
+  lastRun: '2026-01-06T16:37:45.079662'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
