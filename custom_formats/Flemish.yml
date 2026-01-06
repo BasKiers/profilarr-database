@@ -1,0 +1,18 @@
+name: Flemish
+description: Selects Flemish audio tracks
+tags:
+- Language
+- Flemish
+conditions:
+- exceptLanguage: false
+  language: flemish
+  name: Flemish
+  negate: false
+  required: false
+  type: language
+- name: Flemish in title
+  negate: false
+  pattern: Flemish
+  required: false
+  type: release_title
+tests: []

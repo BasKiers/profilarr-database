@@ -1,11 +1,13 @@
 name: English
 description: Matches English audio track
-tags: []
+tags:
+- English
+- Language
 conditions:
-- name: English
-  type: language
-  required: false
-  negate: false
+- exceptLanguage: false
   language: english
-  exceptLanguage: false
+  name: English
+  negate: false
+  required: false
+  type: language
 tests: []

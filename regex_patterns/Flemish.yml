@@ -1,0 +1,7 @@
+name: Flemish
+pattern: (^|[^\w])(FL|Flemish)([^\w]|$)
+description: Matches whether the title signals the release is Flemish
+tags:
+- language
+- Flemish
+tests: []

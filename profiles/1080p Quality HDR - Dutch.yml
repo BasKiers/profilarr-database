@@ -21,6 +21,8 @@ custom_formats:
   score: 420000
 - name: 1080p WEB-DL
   score: 380000
+- name: Flemish
+  score: 333333
 - name: 1080p Bluray
   score: 280000
 - name: 1080p WEBRip

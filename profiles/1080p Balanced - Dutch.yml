@@ -23,6 +23,8 @@ minScoreIncrement: 1
 custom_formats:
 - name: Dutch
   score: 444444
+- name: Flemish
+  score: 333333
 - name: 1080p WEB-DL
   score: 280000
 - name: 720p WEB-DL
