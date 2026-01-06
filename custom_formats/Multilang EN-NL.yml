@@ -1,0 +1,20 @@
+name: Multilang EN-NL
+description: Format has both Dutch and English audio tracks
+tags:
+- Language
+- Dutch
+- English
+conditions:
+- name: Dutch
+  type: language
+  required: true
+  negate: false
+  language: dutch
+  exceptLanguage: false
+- name: English
+  type: language
+  required: true
+  negate: false
+  language: english
+  exceptLanguage: false
+tests: []

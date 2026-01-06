@@ -71,6 +71,8 @@ custom_formats:
   score: 11000
 - name: SD Quality Tier 2
   score: 10000
+- name: Multilang EN-NL
+  score: 9999
 - name: AMZN
   score: 3000
 - name: DSNP

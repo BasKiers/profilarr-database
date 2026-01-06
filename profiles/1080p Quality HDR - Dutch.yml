@@ -89,6 +89,8 @@ custom_formats:
   score: 10000
 - name: English
   score: 9999
+- name: Multilang EN-NL
+  score: 9999
 - name: Not Only English (Missing)
   score: 9999
 - name: AMZN
@@ -284,4 +286,4 @@ upgrade_until:
   name: 1080p Quality HDR
   description: All capable of being indistinguishable from source. WEB-DL included
     to not allow unknown encode to trump known WEB-DL.
-language: must_original
+language: any
