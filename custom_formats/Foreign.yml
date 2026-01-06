@@ -1,0 +1,17 @@
+name: Foreign
+description: Match foreign languages
+tags: []
+conditions:
+- name: Not Enlish
+  type: language
+  required: true
+  negate: true
+  language: english
+  exceptLanguage: false
+- name: Not Dutch
+  type: language
+  required: true
+  negate: true
+  language: dutch
+  exceptLanguage: false
+tests: []

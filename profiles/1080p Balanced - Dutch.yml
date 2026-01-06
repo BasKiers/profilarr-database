@@ -167,6 +167,8 @@ custom_formats:
   score: -999999
 - name: Dolby Vision
   score: -999999
+- name: Foreign
+  score: -999999
 - name: Full Disc
   score: -999999
 - name: h265
